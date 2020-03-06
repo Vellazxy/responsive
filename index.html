@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>text+image</title>
+	<style>
+		p{
+			font-size:3vw;
+			margin:10vw;
+			color: black;
+		}
+
+		div{
+			width: 70vw;
+			height: 70vw;
+		}
+		.image1 img{
+			display: inline;
+		}
+
+		.image2 img{
+			position: absolute;
+			margin-top: -80vw;
+			margin-left:5vw;
+			display:none;
+		}
+
+		@media screen and (min-width: 900px) {
+			.image2 img{
+				display:inline;
+			}
+			.image1 img{
+				display: none;
+			}
+		}
+
+		.span{
+			font-size: 600px;
+		}
+	</style>
+</head>
+
+<body>
+	<a href="shape_colors.html">
+		<p>Hey what's up</p>
+	</a>
+	<div class="image1">
+		<img src="char-pikachu.png">
+	</div>
+	<div class="image2">
+		<img src="037Vulpix.png">
+	</div>
+</body>
+</html>
